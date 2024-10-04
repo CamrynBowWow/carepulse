@@ -1,5 +1,3 @@
-'use client';
-
 import {
 	Form,
 	FormControl,
@@ -32,7 +30,7 @@ interface CustomProps {
 	renderSkeleton?: (field: any) => React.ReactNode;
 }
 
-const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
+const RenderInput = ({ field, props }: { field: any; props: CustomProps }) => {
 	const { fieldType, iconSrc, iconAlt, placeholder } = props;
 
 	switch (fieldType) {
@@ -64,7 +62,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
 				</FormControl>
 			);
 		default:
-			break;
+			return null;
 	}
 };
 
@@ -79,7 +77,7 @@ const CustomFormField = (props: CustomProps) => {
 				<FormItem className='flex-1'>
 					{fieldType !== FormFieldType.CHECKBOX && label && <FormLabel>{label}</FormLabel>}
 
-					<RenderField field={field} props={props} />
+					<RenderInput field={field} props={props} />
 
 					<FormMessage className='shad-error' />
 				</FormItem>

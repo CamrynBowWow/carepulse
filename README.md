@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - react-phone-number-input
 - shadcn
 - libphonenumber-js
+- appwrite 'npm install node-appwrite'
