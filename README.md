@@ -42,3 +42,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - shadcn
 - libphonenumber-js
 - appwrite 'npm install node-appwrite'
+- react-datepicker
+- react-dropzone
