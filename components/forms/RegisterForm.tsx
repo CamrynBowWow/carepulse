@@ -258,7 +258,7 @@ const RegisterForm = ({ user }: { user: User }) => {
 						fieldType={FormFieldType.TEXTAREA}
 						control={form.control}
 						name='currentMedication'
-						label='Current Medication (if nay)'
+						label='Current Medication (if any)'
 						placeholder='Ibuprofen 200mg, Paracetamol 500mg'
 					/>
 				</div>
