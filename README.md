@@ -44,3 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - appwrite 'npm install node-appwrite'
 - react-datepicker
 - react-dropzone
+- Sentry
